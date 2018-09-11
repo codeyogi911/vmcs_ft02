@@ -158,7 +158,7 @@ public class MaintenanceController {
             msg.setLocation(500, 500);
             return;
         }
-
+		/*Defect_VMCS_01*/
         mpanel.initCollectCash();
         mpanel.initTotalCash();
         mpanel.setActive(MaintenancePanel.DIALOG, true);
